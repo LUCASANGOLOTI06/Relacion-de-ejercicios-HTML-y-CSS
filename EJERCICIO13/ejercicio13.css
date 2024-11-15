@@ -1,0 +1,113 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+}
+
+/* Header */
+header {
+    background-color: #1a3d5d;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+    font-size: 0.95em;
+}
+
+/* Footer */
+footer {
+    background-color: #1a3d5d;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer address {
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons span {
+    font-size: 1.5em;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+footer .social-icons span:hover {
+    color: #1a73e8;
+}

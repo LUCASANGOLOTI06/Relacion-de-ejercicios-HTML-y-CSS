@@ -1,0 +1,76 @@
+/* Font-face definitions for custom fonts */
+@font-face {
+    font-family: 'Ribeye Marrow';
+    src: url('path_to_fonts/RibeyeMarrow-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('path_to_fonts/Lobster-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Just Another Hand';
+    src: url('path_to_fonts/JustAnotherHand-Regular.ttf') format('truetype');
+}
+
+
+body {
+    background-color: #ccac4d;
+    color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-family: 'Ribeye Marrow', cursive;
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+
+p.intro {
+    font-family: Arial, sans-serif;
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 200%;
+    text-align: center;
+}
+
+
+strong {
+    font-weight: bold;
+}
+
+
+cite {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+p.latin {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    margin: 2rem 0;
+    text-align: left;
+    float: left;
+    width: 40%;
+}
+
+
+p.espanol {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 3.5rem;
+    color: white;
+    letter-spacing: 1px;
+    text-align: right;
+    margin: 0 0 3rem 0;
+    float: right;
+    width: 40%;
+}

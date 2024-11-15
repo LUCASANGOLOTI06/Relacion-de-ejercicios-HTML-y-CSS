@@ -1,0 +1,74 @@
+body{
+    font-family:Courier New, Courier, monospace ;
+}
+
+h1{
+    color: blue; 
+    background-color: gray;
+    
+}
+
+h2{
+    border: 1px, orange;
+    
+    
+}
+
+h3{
+    border: 1px, orange;
+    
+}
+
+.normal {
+    font-size: 1.2em;
+}
+
+.especial {
+    color: blue;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.lista-elementos {
+    border: 1px solid orange;
+    padding: 5px;
+    margin-top: 10px;
+}
+.lista-elementos ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+.antes {
+    background-color: lightpink;
+    padding: 0px;
+    margin: 0px 0;
+    text-align: left;
+    color: black;
+
+}
+
+
+.despues {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin: 0px 0;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+li{
+    color: red;
+}
+
+li#n1{
+    color: green;
+}
+
+p > img{
+    border: 5px, black, solid;
+}
+img[alt=segunda]{
+    border: 5px, red, solid;
+}
+
+
